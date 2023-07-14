@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     
     return (
-        <nav className="flex items-center justify-between w-full flex-wrap p-6 bg-[#ffdf00] dark:bg-blue-950 dark:text-white ">
+        <nav className="flex items-center justify-between w-full flex-wrap p-6 bg-secondaryColor dark:bg-blue-950 dark:text-white ">
             <div className="flex items-center flex-shrink-0 text-black dark:text-white mr-6 lg:mr-96">
                 
                 <h2>Smart Volley</h2>
