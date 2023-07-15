@@ -1,0 +1,19 @@
+@tailwind base;
+
+@layer base{
+    .linkActivate{
+        
+        @apply block mt-4 lg:inline-block text-xl font-medium  lg:mt-0 text-black mr-6  rounded md:bg-transparent md:text-[#001acc] md:p-0 dark:text-white md:dark:text-white;
+    }
+    .linkDisable{
+        @apply block mt-4 lg:inline-block text-lg lg:mt-0 text-white mr-6  rounded md:bg-transparent md:text-[#4058ff] md:p-0 dark:text-white md:dark:text-blue-500;
+        
+    }
+    .menuButton{
+        @apply inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600;
+    }
+
+}
+
+@tailwind components;
+@tailwind utilities;
