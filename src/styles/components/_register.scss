@@ -1,0 +1,63 @@
+
+.register{
+    align-items: center ;
+    background-color: $backgroundSoft;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+.register__box {
+    
+    background-color: white ;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 20px;
+    min-width: 500px;
+}
+.register__box-group-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__box-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__box-item label {
+    margin-bottom: 10px;
+}
+.register__box-item input {
+    margin-bottom: 5px;
+    appearance: none;
+    border: 1px solid $secondaryColor;
+    border-radius: 7px;
+
+    padding: 8px;
+    
+    &:focus{
+        outline: 1px solid $secondaryColor;
+        
+    }
+    
+}
+.box-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.register__box-button{
+    padding: 15px;
+    border-radius: $primaryButtonRadius;
+    background-color: $primaryColor;
+    border: 1px solid $secondaryColor;
+    cursor: pointer;
+    &:hover{
+        scale: 1.05;
+        transition-duration: .2s;
+    }
+}
