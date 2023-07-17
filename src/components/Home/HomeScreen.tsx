@@ -1,7 +1,9 @@
 import React from 'react'
 import { Navbar } from '../Layout/Navbar'
+import { useGetPokemonByNameQuery, useGetPokemonsQuery } from '../../service/pokemon'
 
 export const HomeScreen = () => {
+  
   return (
     <>
     <div className='flex justify-center  bg-gradient-to-b from-blue-950 via-blue-700 to-blue-200 '>
