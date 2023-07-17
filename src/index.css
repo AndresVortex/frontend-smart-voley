@@ -12,7 +12,31 @@
     .menuButton{
         @apply inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600;
     }
+    .register__box {
+        @apply bg-gradient-to-b from-slate-400 to-slate-200 border mx-auto  rounded-md shadow-custom-md  p-5 min-w-[500px] h-auto
+    }
+    .register__box-group-inputs {
+        @apply flex justify-between flex-col sm:flex-row
+    }
+    .register__box-item {
+        @apply flex flex-col
+    }
+    .register__box-item label {
+        @apply mb-4
 
+    }
+    .register__box-item input {
+        @apply w-full mb-1  outline-blue-900  border-secondaryColor rounded-md p-3 focus:outline focus:outline-secondaryColor   
+    }
+    .box-button{
+        @apply flex items-center justify-center mt-5
+    }
+    .register__box-button{
+        @apply px-4 py-2 w-24 rounded-md bg-blue-500 border-solid border-secondaryColor cursor-pointer hover:scale-110 duration-200
+    }
+    .gradient-blue {
+        @apply bg-gradient-to-b from-blue-950 via-blue-700 to-blue-400
+    }
 }
 
 @tailwind components;
