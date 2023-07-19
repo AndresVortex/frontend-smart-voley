@@ -8,7 +8,7 @@ export const RegisterScreen = () => {
         <div className="register__box-group-inputs">
           <div className="register__box-item">
             <label htmlFor="name">Nombres</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name"/>
           </div>
           <div className="register__box-item">
             <label htmlFor="">Apellidos</label>
@@ -46,3 +46,5 @@ export const RegisterScreen = () => {
     </section>
   );
 };
+
+export default RegisterScreen;
